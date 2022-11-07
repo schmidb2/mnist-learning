@@ -17,7 +17,7 @@ Using MNIST dataset to create machine learning model in Tensorflow.
 
 * Once the data was loaded, it had to be flattened in order to be inputted properly into the model, and the model can only take input as an array. Each row was appended onto itself in order create an array, giving each datapoint 784 features.
 
-* Next, a single neural network was created using Keras. A sequential model was used with Sigmoid activation. After training, the model showed an accuracy of approximately 92%.
+* Next, a single layer neural network was created using Keras. A sequential model was used with Sigmoid activation. After training, the model showed an accuracy of approximately 92%.
 
 ## Checking Accuracy
 
